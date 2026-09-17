@@ -1489,7 +1489,7 @@ jobs:
         shell: bash
         run: uv sync --extra dev --extra recommended --extra mcp --frozen
 
-      - name: Test native profile recovery and shell contracts
+      - name: Test native profile recovery contracts
         shell: bash
         run: |
           set -euo pipefail
